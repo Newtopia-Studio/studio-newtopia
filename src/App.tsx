@@ -1,5 +1,5 @@
 import './App.css'
-import BotonCtm from './components/BotonCtm'
+import EnlaceCtm from './components/EnlaceCtm'
 import BoxInfo from './components/BoxInfo'
 
 export default function App() {
@@ -45,17 +45,21 @@ export default function App() {
 
             <section id='redes'>
               <h3>Redes Sociales</h3>
-              <BotonCtm
+              <EnlaceCtm
                 texto="Github"
                 url="https://github.com/Newtopia-Studio"
               />
-              <BotonCtm
+              <EnlaceCtm
                 texto='TikTok'
                 url='https://tiktok.com/@studio.newtopia'
               />
-              <BotonCtm
+              <EnlaceCtm
                 texto='Instagram'
                 url='https://instagram.com/studio.newtopia'
+              />
+              <EnlaceCtm
+                texto='Correo'
+                url='mailto:studio.newtopia@gmail.com'
               />
             </section>
           </section>
@@ -78,19 +82,19 @@ export default function App() {
 
             <section id='descargas-medievalock'>
               <h3 className='descargas'>Descargas</h3>
-              <BotonCtm 
+              <EnlaceCtm 
                 texto="Descargar en" 
                 subtexto={<strong>itch.io</strong>} 
                 url="https://newtopia-studio.itch.io/medievalock" 
               />
-              <BotonCtm
+              <EnlaceCtm
                 texto="Descargar en"
                 subtexto={<strong>F-Droid</strong>}
                 url="https://f-droid.org/packages/com.newtopia.medievalock"
               />  
             
               <br/>
-              <BotonCtm
+              <EnlaceCtm
                 texto="Ver codigo"
                 url="https://github.com/Newtopia-Studio/medievalock" 
               />

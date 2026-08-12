@@ -1,12 +1,12 @@
 import React from 'react';
 
-interface BotonProps {
+interface EnlaceProps {
   texto: string;
   subtexto?: React.ReactNode;
   url: string;
 }
 
-export default function BotonCtm({ texto, subtexto, url }: BotonProps) {
+export default function EnlaceCtm({ texto, subtexto, url }: EnlaceProps) {
   return (
     <a
       href={url}

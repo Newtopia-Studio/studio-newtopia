@@ -16,6 +16,7 @@ export default function App() {
       <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
         <main>
           <section id="estudio">
+            <h2>Newtopia Studio</h2>
             <section className='descripcion'>
               <BoxInfo titulo='Descripcion'>
                 <p>
@@ -41,11 +42,27 @@ export default function App() {
                 </ul>
               </BoxInfo>
             </section>
+
+            <section id='redes'>
+              <h3>Redes Sociales</h3>
+              <BotonCtm
+                texto="Github"
+                url="https://github.com/Newtopia-Studio"
+              />
+              <BotonCtm
+                texto='TikTok'
+                url='https://tiktok.com/@studio.newtopia'
+              />
+              <BotonCtm
+                texto='Instagram'
+                url='https://instagram.com/studio.newtopia'
+              />
+            </section>
           </section>
 
           <br/>
           <section id='medievalock'>
-              <h2>Medievalock</h2>
+              <h3>Medievalock</h3>
               <section className='descripcion'>
                 <BoxInfo titulo='Descripcion'>
                   <p>

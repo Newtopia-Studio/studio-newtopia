@@ -48,16 +48,21 @@ export default function App() {
             <section id='redes'>
               <h3>Redes Sociales</h3>
               <EnlaceCtm
-                texto="Github"
-                url="https://github.com/Newtopia-Studio"
-              />
-              <EnlaceCtm
                 texto='TikTok'
                 url='https://tiktok.com/@studio.newtopia'
               />
               <EnlaceCtm
                 texto='Instagram'
                 url='https://instagram.com/studio.newtopia'
+              />
+              <EnlaceCtm
+                texto='Youtube'
+                url='https://youtube.com/channel/UCUxt4wFdDfTIlXvuhxqE4ww'
+              />
+              <br/>
+              <EnlaceCtm
+                texto='Github'
+                url='https://github.com/Newtopia-Studio'
               />
               <EnlaceCtm
                 texto='Correo'

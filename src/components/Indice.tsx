@@ -35,12 +35,20 @@ export function Indice() {
               </a>
               <ul className="indice-nivel-2">
                 <li>
-                  <a href="#integrantes" onClick={handleLinkClick} className="indice-link">
+                  <a 
+                    href="#integrantes" 
+                    onClick={handleLinkClick} 
+                    className="indice-link"
+                  >
                     Integrantes
                   </a>
                 </li>
                 <li>
-                  <a href="#redes" onClick={handleLinkClick} className="indice-link">
+                  <a 
+                    href="#redes" 
+                    onClick={handleLinkClick} 
+                    className="indice-link"
+                  >
                     Redes Sociales
                   </a>
                 </li>
@@ -58,22 +66,39 @@ export function Indice() {
               </a>
               <ul className="indice-nivel-2">
                 <li>
-                  <a href="#medievalock" onClick={handleLinkClick} className="indice-link" style={{ fontWeight: 600 }}>
+                  <a 
+                    href="#medievalock" 
+                    onClick={handleLinkClick} 
+                    className="indice-link" 
+                    style={{ fontWeight: 600 }}
+                  >
                     Medievalock
                   </a>
                   <ul className="indice-nivel-3">
                     <li>
-                      <a href="#medievalock-desc" onClick={handleLinkClick} className="indice-link indice-link-sub">
+                      <a 
+                        href="#medievalock-desc" 
+                        onClick={handleLinkClick} 
+                        className="indice-link indice-link-sub"
+                      >
                         Descripción
                       </a>
                     </li>
                     <li>
-                      <a href="#medievalock-img" onClick={handleLinkClick} className="indice-link indice-link-sub">
+                      <a 
+                        href="#medievalock-img" 
+                        onClick={handleLinkClick} 
+                        className="indice-link indice-link-sub"
+                      >
                         Imágenes
                       </a>
                     </li>
                     <li>
-                      <a href="#medievalock-dnlds" onClick={handleLinkClick} className="indice-link indice-link-sub">
+                      <a 
+                        href="#medievalock-dnlds" 
+                        onClick={handleLinkClick} 
+                        className="indice-link indice-link-sub"
+                      >
                         Descargar
                       </a>
                     </li>

@@ -1,6 +1,7 @@
-import './App.css'
-import EnlaceCtm from './components/EnlaceCtm'
-import BoxInfo from './components/BoxInfo'
+import './App.css';
+import EnlaceCtm from './components/EnlaceCtm';
+import BoxInfo from './components/BoxInfo';
+import { Indice } from './components/Indice';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
           alt="Newtopia Studio"
           className='header-logo'
         />
+        <Indice/>
       </header>
 
       <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
@@ -65,39 +67,41 @@ export default function App() {
           </section>
 
           <br/>
-          <section id='medievalock'>
-              <h3>Medievalock</h3>
-              <section className='descripcion'>
-                <BoxInfo titulo='Descripcion'>
-                  <p>
-                    <strong>Medievalock</strong> es una 
-                    novela visual sobre el anime <i>Blue Lock </i>
-                    ambientada en la edad media 
-                  </p>
-                </BoxInfo>
+          <section id='proyectos'>
+            <section id='medievalock'>
+                <h3>Medievalock</h3>
+                <section id='medievalock-desc' className='descripcion'>
+                  <BoxInfo titulo='Descripcion'>
+                    <p>
+                      <strong>Medievalock</strong> es una 
+                      novela visual sobre el anime <i>Blue Lock </i>
+                      ambientada en la edad media 
+                    </p>
+                  </BoxInfo>
+                </section>
+  
+              <section id='medievalock-img' className='imagenes'>
               </section>
-
-            <section id='imagenes-medievalock'>
-            </section>
-
-            <section id='descargas-medievalock'>
-              <h3 className='descargas'>Descargas</h3>
-              <EnlaceCtm 
-                texto="Descargar en" 
-                subtexto={<strong>itch.io</strong>} 
-                url="https://newtopia-studio.itch.io/medievalock" 
-              />
-              <EnlaceCtm
-                texto="Descargar en"
-                subtexto={<strong>F-Droid</strong>}
-                url="https://f-droid.org/packages/com.newtopia.medievalock"
-              />  
+  
+              <section id='medievalock-dnlds' className='descargas'>
+                <h3 className='descargas'>Descargas</h3>
+                <EnlaceCtm 
+                  texto="Descargar en" 
+                  subtexto={<strong>itch.io</strong>} 
+                  url="https://newtopia-studio.itch.io/medievalock" 
+                />
+                <EnlaceCtm
+                  texto="Descargar en"
+                  subtexto={<strong>F-Droid</strong>}
+                  url="https://f-droid.org/packages/com.newtopia.medievalock"
+                />  
             
-              <br/>
-              <EnlaceCtm
-                texto="Ver codigo"
-                url="https://github.com/Newtopia-Studio/medievalock" 
-              />
+                <br/>
+                <EnlaceCtm
+                  texto="Ver codigo"
+                  url="https://github.com/Newtopia-Studio/medievalock" 
+                />
+              </section>
             </section>
           </section>
         </main>

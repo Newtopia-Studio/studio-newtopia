@@ -151,6 +151,11 @@ header {
   transform: translateY(0);
 }
 
+#proyectos h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 .descargas h3 {
   margin-bottom: 3rem;
 }
@@ -183,3 +188,4 @@ header {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+

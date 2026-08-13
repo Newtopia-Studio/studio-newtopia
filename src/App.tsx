@@ -18,7 +18,7 @@ export default function App() {
       <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
         <main>
           <section id="estudio">
-            <h2>Newtopia Studio</h2>
+            <h2><u>Newtopia Studio</u></h2>
             <section className='descripcion'>
               <BoxInfo titulo='Descripcion'>
                 <p>
@@ -73,6 +73,7 @@ export default function App() {
 
           <br/>
           <section id='proyectos'>
+            <h2><u>Proyectos</u></h2>
             <section id='medievalock'>
                 <h3>Medievalock</h3>
                 <section id='medievalock-desc' className='descripcion'>
@@ -86,6 +87,12 @@ export default function App() {
                 </section>
   
               <section id='medievalock-img' className='imagenes'>
+                <h3>Imagenes</h3>
+                <img
+                  src='./main_menu.png'
+                  alt='Menu Principal'
+                  className='menu_principal'
+                />
               </section>
   
               <section id='medievalock-dnlds' className='descargas'>

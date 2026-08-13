@@ -7,13 +7,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencias y compilación
 node_modules
 dist
 dist-ssr
 *.local
+.vite/
+.eslintcache
+.tsconfig.tsbuildinfo
+
+# Firebase
 .firebase
 
-# Editor directories and files
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Editor / Sistema Operativo / Neovim
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -23,3 +34,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.un~
+Session.vim
+.netrwhist
+
+# Basura de agentes / IA sobrantes
+.agents
+.claude
+agent
+skills-lock.json

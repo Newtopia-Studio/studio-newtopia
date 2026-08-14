@@ -32,7 +32,7 @@ export default function App() {
             <section id='integrantes'>
               <BoxInfo titulo='Integrantes'>
                 <ul>
-                  <li>BryLang-void</li>
+                  <li>BryLang</li>
                   <li>Damzelette</li>
                   <li>Fan</li>
                   <li>Hyuna</li>

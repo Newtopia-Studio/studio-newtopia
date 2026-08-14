@@ -2,6 +2,7 @@ import './App.css';
 import EnlaceCtm from './components/EnlaceCtm';
 import BoxInfo from './components/BoxInfo';
 import { Indice } from './components/Indice';
+import Equipo from './components/Equipo.tsx';
 
 export default function App() {
   return (
@@ -30,18 +31,8 @@ export default function App() {
             </section>
 
             <section id='integrantes'>
-              <BoxInfo titulo='Integrantes'>
-                <ul>
-                  <li>BryLang</li>
-                  <li>Damzelette</li>
-                  <li>Fan</li>
-                  <li>Hyuna</li>
-                  <li>LenVainilla</li>
-                  <li>Loki</li>
-                  <li>Ness</li>
-                  <li>Yam</li>
-                  <li>Yuko</li>
-                </ul>
+              <BoxInfo titulo='Equipo'>
+                <Equipo/>
               </BoxInfo>
             </section>
 

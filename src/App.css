@@ -104,6 +104,13 @@ header {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5)); 
 }
 
+/* ===EQUIPO=== */
+#equipo ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style-position: inside;
+}
+
 /* ===BOTONES=== */
 #medievalock-dnlds a {
   display: inline-block;       

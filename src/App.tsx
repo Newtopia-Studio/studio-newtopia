@@ -30,7 +30,7 @@ export default function App() {
               </BoxInfo>
             </section>
 
-            <section id='integrantes'>
+            <section id='equipo'>
               <BoxInfo titulo='Equipo'>
                 <Equipo/>
               </BoxInfo>

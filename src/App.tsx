@@ -75,7 +75,7 @@ export default function App() {
           <section id='proyectos'>
             <h2><u>Proyectos</u></h2>
             <section id='medievalock'>
-                <h3>Medievalock</h3>
+                <h3 style={{marginTop: "1rem"}}>Medievalock</h3>
                 <section id='medievalock-desc' className='descripcion'>
                   <BoxInfo titulo='Descripcion'>
                     <p>
@@ -96,7 +96,7 @@ export default function App() {
               </section>
   
               <section id='medievalock-dnlds' className='descargas'>
-                <h3 className='descargas'>Descargas</h3>
+                <h3 style={{marginTop: "2rem"}}>Descargas</h3>
                 <EnlaceCtm 
                   texto="Descargar en" 
                   subtexto={<strong>itch.io</strong>} 

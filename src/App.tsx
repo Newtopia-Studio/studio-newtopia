@@ -110,7 +110,7 @@ export default function App() {
         </main>
 
         <footer style={{ marginTop: '3rem', color: '#666' }}>
-          <p>© 2026 Newtopia Studio / BryLang-void</p>
+          <p>© 2026 Newtopia Studio / BryLang</p>
         </footer>
       </div>
     </div>

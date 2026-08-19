@@ -3,6 +3,7 @@ export default function Equipo() {
     "BryLang", 
     "Damzelette", 
     "Fan", 
+    "Grokz",
     "Hyuna", 
     "LenVainilla", 
     "Loki",

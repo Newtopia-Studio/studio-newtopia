@@ -8,6 +8,7 @@ export default function Equipo() {
     "LenVainilla", 
     "Loki",
     "Mirko",
+    "MiseriSixSeven",
     "Ness", 
     "Sinyo",
     "Yam",

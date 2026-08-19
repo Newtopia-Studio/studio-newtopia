@@ -9,6 +9,7 @@ export default function Equipo() {
     "Loki",
     "Mirko",
     "Ness", 
+    "Sinyo",
     "Yam",
     "Yuko"
   ]

@@ -5,7 +5,8 @@ export default function Equipo() {
     "Fan", 
     "Hyuna", 
     "LenVainilla", 
-    "Loki", 
+    "Loki",
+    "Mirko",
     "Ness", 
     "Yam",
     "Yuko"

@@ -1,5 +1,6 @@
 export default function Equipo() {
   const equipo = [
+    "Blexx",
     "BryLang", 
     "Damzelette", 
     "Fan", 

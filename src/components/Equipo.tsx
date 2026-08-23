@@ -11,7 +11,8 @@ export default function Equipo() {
     "Marialin",
     "Mirko",
     "MiseriSixSeven",
-    "Ness", 
+    "Ness",
+    "Skull",
     "Sinyo",
     "Yam",
     "Yuko"

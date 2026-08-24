@@ -72,7 +72,7 @@ export function Indice() {
                     className="indice-link" 
                     style={{ fontWeight: 600 }}
                   >
-                    Medievalock
+                    Royal Egoist
                   </a>
                   <ul className="indice-nivel-3">
                     <li>

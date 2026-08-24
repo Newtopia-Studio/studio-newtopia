@@ -67,7 +67,7 @@ export function Indice() {
               <ul className="indice-nivel-2">
                 <li>
                   <a 
-                    href="#medievalock" 
+                    href="#royalEgoist" 
                     onClick={handleLinkClick} 
                     className="indice-link" 
                     style={{ fontWeight: 600 }}
@@ -77,7 +77,7 @@ export function Indice() {
                   <ul className="indice-nivel-3">
                     <li>
                       <a 
-                        href="#medievalock-desc" 
+                        href="#royalEgoist-desc" 
                         onClick={handleLinkClick} 
                         className="indice-link indice-link-sub"
                       >
@@ -86,7 +86,7 @@ export function Indice() {
                     </li>
                     <li>
                       <a 
-                        href="#medievalock-img" 
+                        href="#royalEgoist-img" 
                         onClick={handleLinkClick} 
                         className="indice-link indice-link-sub"
                       >
@@ -95,7 +95,7 @@ export function Indice() {
                     </li>
                     <li>
                       <a 
-                        href="#medievalock-dnlds" 
+                        href="#royalEgoist-dnlds" 
                         onClick={handleLinkClick} 
                         className="indice-link indice-link-sub"
                       >

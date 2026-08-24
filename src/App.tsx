@@ -65,19 +65,19 @@ export default function App() {
           <br/>
           <section id='proyectos'>
             <h2><u>Proyectos</u></h2>
-            <section id='medievalock'>
-                <h3 style={{marginTop: "1rem"}}>Medievalock</h3>
-                <section id='medievalock-desc' className='descripcion'>
+            <section id='royalEgoist'>
+                <h3 style={{marginTop: "1rem"}}>Royal Egoist</h3>
+                <section id='royalEgoist-desc' className='descripcion'>
                   <BoxInfo titulo='Descripcion'>
                     <p>
-                      <strong>Medievalock</strong> es una 
-                      novela visual sobre el anime <i>Blue Lock </i>
-                      ambientada en la edad media 
+                      <strong>Royal Egoist</strong> es una 
+                      novela visual inspirada en <i>Blue Lock </i>
+                      de romance ambientada en la edad media 
                     </p>
                   </BoxInfo>
                 </section>
   
-              <section id='medievalock-img' className='imagenes'>
+              <section id='royalEgoist-img' className='imagenes'>
                 <h3>Imagenes</h3>
                 <img
                   src='./main_menu.png'
@@ -86,23 +86,23 @@ export default function App() {
                 />
               </section>
   
-              <section id='medievalock-dnlds' className='descargas'>
+              <section id='royalEgoist-dnlds' className='descargas'>
                 <h3 style={{marginTop: "2rem"}}>Descargas</h3>
                 <EnlaceCtm 
                   texto="Descargar en" 
                   subtexto={<strong>itch.io</strong>} 
-                  url="https://newtopia-studio.itch.io/medievalock" 
+                  url="https://newtopia-studio.itch.io/royal-egoist" 
                 />
                 <EnlaceCtm
                   texto="Descargar en"
                   subtexto={<strong>F-Droid</strong>}
-                  url="https://f-droid.org/packages/com.newtopia.medievalock"
+                  url="https://f-droid.org/packages/com.newtopia.royal-egoist"
                 />  
             
                 <br/>
                 <EnlaceCtm
                   texto="Ver codigo"
-                  url="https://github.com/Newtopia-Studio/medievalock" 
+                  url="https://github.com/Newtopia-Studio/royal-egoist" 
                 />
               </section>
             </section>

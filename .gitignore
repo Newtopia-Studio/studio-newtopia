@@ -42,4 +42,5 @@ Session.vim
 .agents
 .claude
 agent
+AGENTS.md
 skills-lock.json

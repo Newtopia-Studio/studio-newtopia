@@ -71,8 +71,13 @@ export default function App() {
                   <BoxInfo titulo='Descripcion'>
                     <p>
                       <strong>Royal Egoist</strong> es una 
-                      novela visual inspirada en <i>Blue Lock </i>
-                      de romance ambientada en la edad media 
+                      novela visual de romance 
+                      ambientada en la Edad Media, 
+                      con varios reinos en los que podrás ayudar y 
+                      enamorar a tus egoístas favoritos. 
+                    </p> <p>  
+                      Cuenta con reinos inspirados en las civilizaciones 
+                      medievales de Japón, Inglaterra, Francia y Alemania.
                     </p>
                   </BoxInfo>
                 </section>

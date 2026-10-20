@@ -1,12 +1,12 @@
 export default function Equipo() {
   const equipo = [
+    "Blexx",
     "BryLang", 
     "Evan", 
     "Hyuna", 
     "LenVainilla", 
     "Loki",
     "Mirko",
-    "MiseriSixSeven",
     "Ness",
     "Sam",
     "Skull",
